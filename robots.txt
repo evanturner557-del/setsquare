@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: /setsquare/sitemap.xml
+Sitemap: https://evanturner557-del.github.io/setsquare/sitemap.xml

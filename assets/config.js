@@ -2,5 +2,5 @@ window.SITE_CONFIG = {
   killSwitch: false,
   "checkoutMode": "none",
   "checkoutUrl": null,
-  "contactEmail": "localreply@agentmail.to"
+  "contactEmail": "evanturner557+setsquare@gmail.com"
 };

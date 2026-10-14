@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; form-action 'self'; base-uri 'self'; object-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self' https://formsubmit.co; form-action 'self'; base-uri 'self'; object-src 'none'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Setsquare — office procedures for heating and plumbing firms</title>
   <meta name="description" content="The £79 Office pack: 12 editable office procedures and checklists for UK heating and plumbing firms — enquiries, quotes, booking, invoicing and more.">
@@ -119,7 +119,7 @@
         <ul class="contact-points"><li><span class="icon" aria-hidden="true"><svg><use href="#i-mail"/></svg></span><span><b>Email</b>Email us at <a href="mailto:localreply+setsquare@agentmail.to?subject=Setsquare%20enquiry">localreply+setsquare@agentmail.to</a>. This is a plus-address on our shared business inbox, used only for Setsquare (same owner as our other small brands).</span></li>
           <li><span class="icon" aria-hidden="true"><svg><use href="#i-shield"/></svg></span><span><b>Your data</b>Used only to deal with your enquiry. See our <a href="privacy.html">privacy notice</a>.</span></li></ul>
       </div>
-      <form class="form" data-contact data-email="localreply+setsquare@agentmail.to" data-subject="Setsquare enquiry" novalidate>
+      <form class="form" data-contact data-formsubmit="b592b83fbe86bf619e77d8afd3cdfb9d" data-email="localreply+setsquare@agentmail.to" data-subject="Setsquare enquiry" novalidate>
         <div class="row-2">
           <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
           <div class="field"><label for="f-business">Business name</label><input id="f-business" name="business" autocomplete="organization" required></div>
@@ -129,8 +129,8 @@
           <div class="field"><label for="f-plan">Interested in</label><select id="f-plan" name="plan"><option value="">Not sure yet</option><option value="office">Office pack (£79)</option><option value="tailored">Tailored pack (£199)</option><option value="review">Six-monthly review (£49)</option></select></div>
         </div>
         <div class="field"><label for="f-message">Anything else?</label><textarea id="f-message" name="message"></textarea></div>
-        <p class="hint">Submitting opens your own email app with the message ready — nothing is sent until you press Send.</p>
-        <button class="btn btn--primary" type="submit">Write my email</button>
+        <p class="hint">Your message is sent to our inbox via FormSubmit (formsubmit.co), our form-delivery provider. If that fails, your own email app opens instead.</p>
+        <button class="btn btn--primary" type="submit">Send message</button>
         <p class="form-status" role="status" aria-live="polite"></p>
       </form>
     </div>

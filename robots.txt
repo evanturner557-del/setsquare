@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /setsquare/d/
+Disallow: /d/
 Sitemap: https://evanturner557-del.github.io/setsquare/sitemap.xml

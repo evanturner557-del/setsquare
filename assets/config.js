@@ -1,6 +1,6 @@
 window.SITE_CONFIG = {
   killSwitch: false,
-  "checkoutMode": "none",
+  "checkoutMode": "enquiry",
   "checkoutUrl": null,
   "contactEmail": "localreply+setsquare@agentmail.to"
 };

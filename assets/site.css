@@ -27,6 +27,7 @@
 @media (max-width:860px){.gallery{grid-template-columns:repeat(2,1fr);gap:16px}.pagestack{min-height:0;margin-top:12px}}
 @media (prefers-reduced-motion:reduce){.gallery img{transition:none}.gallery figure:hover img{transform:none}}
 
-/* visual harden: flat dot, no hero blur */
+/* visual harden: flat dot, no hero blur, no floating price badge */
+.pagestack__price{display:none!important}
 .hero::before{content:none!important;display:none!important;background:none!important}
 .announce .dot,.dot{box-shadow:none!important;animation:none!important;filter:none!important}

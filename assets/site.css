@@ -26,11 +26,3 @@
 .gallery figcaption b{display:block;color:#2a2118;font-size:.95rem}
 @media (max-width:860px){.gallery{grid-template-columns:repeat(2,1fr);gap:16px}.pagestack{min-height:0;margin-top:12px}}
 @media (prefers-reduced-motion:reduce){.gallery img{transition:none}.gallery figure:hover img{transform:none}}
-
-/* prep-d09: Buy paused — hide price badge; no covering footer/cookie */
-.pagestack__price{display:none !important}
-
-/* prep-d09 visual harden */
-.hero::before{content:none!important;display:none!important;background:none!important}
-.announce .dot,.dot{box-shadow:none!important;animation:none!important;filter:none!important}
-.pagestack__price{display:none!important}
